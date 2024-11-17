@@ -5,12 +5,8 @@ metadata:
   name: red
 spec:
   parentRefs:
-    - kind: Gateway
-      name: http
-      namespace: kube-system
-  hostnames:
-    - localhost
-  rules:
-    - backendRefs:
-        - name: red
-          port: 80
+    - name: red
+      kind: Service
+      group: core
+      port: 80
+  rules: {}
