@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: app
-          image: ghcr.io/gitops-remote-dev/red:c1f7cbd4a55c0ff1caecac87b652f528eba084c7
+          image: ghcr.io/gitops-ci-cd/red:c1f7cbd4a55c0ff1caecac87b652f528eba084c7
           ports:
             - name: web
               containerPort: 80
