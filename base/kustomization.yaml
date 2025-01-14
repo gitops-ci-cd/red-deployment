@@ -7,3 +7,6 @@ resources:
 images:
 - name: ghcr.io/gitops-ci-cd/red
   newTag: fbe765a135534b1dedb9dcd53488c599440ac82d
+- name: red
+  newName: ghcr.io/gitops-ci-cd/red
+  newTag: latest
