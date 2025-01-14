@@ -9,4 +9,4 @@ images:
   newTag: fbe765a135534b1dedb9dcd53488c599440ac82d
 - name: red
   newName: ghcr.io/gitops-ci-cd/red
-  newTag: latest
+  digest: sha256:64c6bee81cdf79296cd94a0c6dffad6c1435571d5227c9effd7872217bf0c754
