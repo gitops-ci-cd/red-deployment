@@ -1,8 +1,9 @@
----
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
-
 resources:
-  - deployment.yaml
-  - service.yaml
-  - http-route.yaml
+- deployment.yaml
+- service.yaml
+- http-route.yaml
+images:
+- name: ghcr.io/gitops-ci-cd/red
+  newTag: latest
