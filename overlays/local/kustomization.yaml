@@ -4,3 +4,12 @@ kind: Kustomization
 
 resources:
   - ../../base
+
+patches:
+  - target:
+      kind: HTTPRoute
+      name: red-route
+    patch: |-
+      - op: add
+        path: /spec/hostnames/-
+        value: "red.localhost"

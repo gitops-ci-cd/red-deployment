@@ -9,8 +9,7 @@ spec:
       kind: Gateway
       name: external-http-gateway
       namespace: istio-ingress
-  hostnames:
-    - "red.localhost"
+  hostnames: []
   rules:
     - matches:
         - path:
